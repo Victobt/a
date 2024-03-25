@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    position: absolute;
+    left: 65%;
+    top: 0%;
+}
+div{
+    position: absolute;
+    left: 50%;
+    top: 50%;  
+    transform: translate(-50%, -50%);
+}
+.produto{
+    width: auto;
+}
+.produto li{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: 30px auto;
+    padding: 0 0;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+ 
+.produto h2 {
+    margin:  10px 0;
+}
+.produto li > img{
+    width:  10em;
+}
+.produto{
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.produto li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px; 
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px; 
+}
+.produtos{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.produto li > img{
+    width: 15em;
+}
+
+.produto li:hover h2{
+    font-size: 30px;
+}
+.produto li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px; 
+    box-sizing: border-box;/* The width (width) and height (height) properties include the fill size and property boundary */ /*not to increase the size of the element*/
+    border: 2px solid #000000;/*size / style / color */
+    border-radius: 10px; /* curvature */
+}
+
+.produto li:hover{/*change behavior when the mouse it is over*/
+    border-color: #990011;
+}
+
+.produto li:active{ /*change behavior when the mouse do click*/
+    border-color: #339900;
+}
+@media screen and (max-width: 960px){/*Responsive*/
+     header, body{
+        width: auto;
+    }
+}
